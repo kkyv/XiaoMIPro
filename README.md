@@ -22,17 +22,7 @@ macos真的是太好用，已经回不去windows10了，之所以还装了win10�
 <h2>用TransMac克隆镜像到U盘</h2>
 <p style="padding-left: 60px;">下载安装transmac，然后写入镜像到u盘就好了，很简单</p>
 <p style="padding-left: 60px;"><img class="size-medium wp-image-87 alignleft" src="http://123.207.110.218/wp-content/uploads/2018/05/TransMac1-300x221.png" alt="" width="300" height="221" /></p>
-&nbsp;
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 <h2>修改BIOS，从U盘启动</h2>
 由于小米bios默认开启了安全认证，无法加载其他的uefi启动，也就是需要关闭才能从u盘启动
 
@@ -44,61 +34,22 @@ macos真的是太好用，已经回不去windows10了，之所以还装了win10�
 进入后：
 <img class="size-medium wp-image-88 alignleft" src="http://123.207.110.218/wp-content/uploads/2018/05/XiaoMiCloverboot-300x225.png" alt="" width="300" height="225" />
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
 只有一个图标，选择进入系统
 <h2>安装MacOS</h2>
 之后可以看到选择语言界面：选择<code>简体中文</code>进入到：实用工具界面
 
 <img class="size-medium wp-image-92 alignleft" src="http://123.207.110.218/wp-content/uploads/2018/05/ParallelsPicture0-300x225.png" alt="" width="300" height="225" />
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 选择实用工具--》选择显示所设备
 
 <img class="size-medium wp-image-93 alignleft" src="http://123.207.110.218/wp-content/uploads/2018/05/WX20180508-135611-300x198.png" alt="" width="300" height="198" />
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 选择自带的硬盘--》抹掉（全盘抹掉的好处会自动生成200m的esp引导分区）
 
 <img class="size-medium wp-image-94 alignleft" src="http://123.207.110.218/wp-content/uploads/2018/05/WX20180508-140136-300x197.png" alt="" width="300" height="197" />
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 完成后退出<code>磁盘工具</code>，选择<code>安装MacOs</code>，基本就是无脑下一步下一步下一步
 
@@ -112,15 +63,6 @@ Mac使用挂载的方式加载分区，因为EFI是隐藏的，所以需要命�
 
 <img class="size-medium wp-image-95 alignleft" src="http://123.207.110.218/wp-content/uploads/2018/05/WX20180508-141431-300x193.png" alt="" width="300" height="193" />
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 然后可以看到256G的磁盘的efi分区为<code>disk0s1</code>，再用<code>diskutil mount disk0s1</code>挂载efi分区（名字加）
 
@@ -130,18 +72,8 @@ Mac使用挂载的方式加载分区，因为EFI是隐藏的，所以需要命�
 
 <img class="size-medium wp-image-96 alignleft" src="http://123.207.110.218/wp-content/uploads/2018/05/WX20180508-141822-300x190.png" alt="" width="300" height="190" />
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 这样，MacOS的安装就完成了，
 
-&nbsp;
 
 安装Windows待续。。。
