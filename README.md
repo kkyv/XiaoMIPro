@@ -16,7 +16,7 @@ macos真的是太好用，已经回不去windows10了，之所以还装了win10�
 <ol>
  	<li>mac镜像，<a href="https://mirrors.dtops.cc/iso/MAC%20OS/%E9%BB%91%E6%9E%9C%E5%B0%8F%E5%85%B5/macOS%20High%20Sierra%2010.13.3%2817D47%29%20Installer%20with%20Clover%204391.dmg" target="_blank" rel="noopener">迅雷下载链接</a>，<a href="https://pan.baidu.com/s/1bqmWMLp">百度云</a>https://pan.baidu.com/s/1bqmWMLp ，密码：7pu8</li>
  	<li>8G及以上U盘，做pe推荐<a href="http://www.wepe.com.cn/download.html">微PE</a></li>
- 	<li>EFI文件<a href="https://github.com/kkyv/XiaoMIPro/blob/master/efi.zip">efi.zip</a></li>
+ 	<li>EFI文件<a href="https://github.com/kkyv/XiaoMIPro/blob/master/EFI.zip">EFI.zip</a></li>
  	<li>TransMac软件<a href="https://github.com/kkyv/XiaoMIPro/blob/master/tmsetup_10-3.exe">tmsetup_10-3.exe</a></li>
 </ol>
 <h2>用TransMac克隆镜像到U盘</h2>
